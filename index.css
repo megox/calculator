@@ -1,0 +1,191 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 311px;
+    height: 532px;
+    background-color: rgba(32,32,32,255);
+}
+
+.window-bar-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.wb-left{
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+    align-items: center;
+    padding: 10px 15px;
+}
+.calculator-icon{
+    width: 16px;
+    height: 17px;
+    margin-right: 15px;
+    pointer-events: none;
+}
+
+.wb-right{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.wb-right div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+}
+
+.delete-icon:hover, .square-icon:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+}
+.exit-icon:hover{
+    background-color: red;
+
+}
+.wb-right div img{
+    width: 10px;
+}
+
+
+
+.options-div{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    margin-top: 8px;
+}
+.o-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+.o-right{
+    padding-right: 5px;
+}
+
+.o-left div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.o-left div img{
+    width: 15px;
+}
+
+.o-right div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.o-right div img{
+    width: 18px;
+}
+
+.o-right div:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+.minimize:hover , .hamburger:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+    border-radius: 5px;
+}
+
+
+
+
+.view-div{
+  height: 100px;
+  margin-bottom: 3px;
+}
+
+.m-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5px;
+}
+
+.m-div button{
+    width: 45px;
+    height: 30px;
+    background-color: rgba(32,32,32,255);
+    border-style: none;
+}
+
+.white-button{
+    color: white;
+}
+.gray-button{
+    color: #888888;
+    pointer-events: none;
+}
+
+.white-button:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+
+.digits-div{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3px 0px;
+}
+
+.digits-div div{
+    margin: 2px;
+    height: 49px;
+    border-radius: 5px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darker{
+    background-color: #323232;
+}
+
+.lighter{
+    background-color: #3b3b3b;
+}
+.blue{
+    background-color: #64b0ea;
+    color: black;
+    font-size: 24px;
+}
+
+.darker:hover{
+    background-color: #3b3b3b;
+}
+
+.lighter:hover{
+    background-color: #323232;
+    font-size: larger;
+}
+.blue:hover{
+    background-color: rgba(45, 184, 238, 0.752)
+}
